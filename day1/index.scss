@@ -1,0 +1,212 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+//vali
+$color: #4daf54;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body{
+    background-image: linear-gradient(to right, $color, #3d8880);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color : white;
+    font-family: 'Poppins', sans-serif;
+  } 
+
+//Kế thừa
+%icon {
+    zoom:1.4;
+    font-weight: 600;
+
+}
+%text{
+    font-size: 24px;
+    text-align: center;
+    font-weight: 600;
+}
+%color{
+    width: 20px;
+    height: 20px;
+    // background-color: #3d8880;
+    margin: 5px;
+    border-radius: 50%;
+    
+}
+
+%btn{
+    background-color: $color;
+    font-size: 13px;
+    color: white;
+    margin: 0 5px;
+    padding: 7px 19px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    transition: 0.3s;
+    &:hover{
+        transform: scale(.9);
+        
+    }
+}
+
+
+//Kế thừa
+.container{
+    width: 320px;
+    height: 400px;
+    background-color: #272d40;
+    border-radius: 20px;
+    margin-top: 150px;
+    padding: 20px 20px 40px 20px;
+}
+.card{
+    
+    &:hover .img  {
+        transform: translateX(-30px) translateY(-100px) rotate(-20deg);
+        
+    }
+    &:hover .title{
+        transform: translateX(-44px) translateY(-90px);
+        
+    }
+    &:hover .price{
+        transform: translateX(-115px) translateY(-90px);
+        
+    }
+    &hover .size{
+        display: block;
+        margin-top: 0;
+    }
+    .icon{
+        display: flex;
+        justify-content: space-between;
+        .icon-heart{
+          @extend %icon;
+        }
+        .icon-cart{
+          @extend %icon;
+        }
+    }
+    .img{
+        width: 252px;
+        height: 167px;
+        margin: 0 auto;
+        transition: 0.5s;
+        transition-delay: 0.2s;
+    }
+    .title{
+        @extend %text;
+        color: $color;
+        transition: 0.5s;
+        transition-delay: 0.2s;
+    }
+    .price{
+        @extend %text;
+        transition: 0.5s;
+        transition-delay: 0.2s;
+    }
+    
+    .fix-hover{
+        margin-top: 120px;
+        opacity: 0;
+        transition: 0.5s;
+        transition-delay: 0.2s;
+    }
+    &:hover .fix-hover{
+        margin-top: -50px;
+        opacity: 1;
+        transition: 0.5s;
+        transition-delay: 0.2s;
+    }
+}
+.size{
+        
+    .size-btn{
+        button{
+            background-color: #dadada;
+            color: #272d40;
+            margin: 0 2px;
+            padding: 2px 10px;
+            border-radius: 20%;
+            cursor: pointer;
+            &:hover{
+                background-color: $color;
+                color: white;
+            }
+        }
+        button:first-child{
+            margin-left: 10px;
+        }
+    }
+}
+.color{
+    margin: 13px 0;
+    display: flex;
+    .color-span{
+        
+        display: flex;
+        .red{
+    
+            @extend %color;
+            background-color:red;     
+        }
+        .green{
+    
+            @extend %color;
+            background-color: $color;
+            margin-left: 10px;
+        }
+        .black{
+    
+            @extend %color;
+            background-color: black;
+        }
+    }
+}
+.btn{
+
+    margin: 2px 0;
+    .btn-add-cart{
+        @extend %btn;
+
+    }
+    .btn-buy-now{
+        @extend %btn;
+
+    }
+}

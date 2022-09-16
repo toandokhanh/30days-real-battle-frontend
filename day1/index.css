@@ -1,0 +1,177 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  background-image: linear-gradient(to right, #4daf54, #3d8880);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.card .icon .icon-cart, .card .icon .icon-heart {
+  zoom: 1.4;
+  font-weight: 600;
+}
+
+.card .price, .card .title {
+  font-size: 24px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.color .color-span .black, .color .color-span .green, .color .color-span .red {
+  width: 20px;
+  height: 20px;
+  margin: 5px;
+  border-radius: 50%;
+}
+
+.btn .btn-buy-now, .btn .btn-add-cart {
+  background-color: #4daf54;
+  font-size: 13px;
+  color: white;
+  margin: 0 5px;
+  padding: 7px 19px;
+  font-weight: 600;
+  border: none;
+  border-radius: 5px;
+  transition: 0.3s;
+}
+.btn .btn-buy-now:hover, .btn .btn-add-cart:hover {
+  transform: scale(0.9);
+}
+
+.container {
+  width: 320px;
+  height: 400px;
+  background-color: #272d40;
+  border-radius: 20px;
+  margin-top: 150px;
+  padding: 20px 20px 40px 20px;
+}
+
+.card:hover .img {
+  transform: translateX(-30px) translateY(-100px) rotate(-20deg);
+}
+.card:hover .title {
+  transform: translateX(-44px) translateY(-90px);
+}
+.card:hover .price {
+  transform: translateX(-115px) translateY(-90px);
+}
+.cardhover .size {
+  display: block;
+  margin-top: 0;
+}
+.card .icon {
+  display: flex;
+  justify-content: space-between;
+}
+.card .img {
+  width: 252px;
+  height: 167px;
+  margin: 0 auto;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+.card .title {
+  color: #4daf54;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+.card .price {
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+.card .fix-hover {
+  margin-top: 120px;
+  opacity: 0;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+.card:hover .fix-hover {
+  margin-top: -50px;
+  opacity: 1;
+  transition: 0.5s;
+  transition-delay: 0.2s;
+}
+
+.size .size-btn button {
+  background-color: #dadada;
+  color: #272d40;
+  margin: 0 2px;
+  padding: 2px 10px;
+  border-radius: 20%;
+  cursor: pointer;
+}
+.size .size-btn button:hover {
+  background-color: #4daf54;
+  color: white;
+}
+.size .size-btn button:first-child {
+  margin-left: 10px;
+}
+
+.color {
+  margin: 13px 0;
+  display: flex;
+}
+.color .color-span {
+  display: flex;
+}
+.color .color-span .red {
+  background-color: red;
+}
+.color .color-span .green {
+  background-color: #4daf54;
+  margin-left: 10px;
+}
+.color .color-span .black {
+  background-color: black;
+}
+
+.btn {
+  margin: 2px 0;
+}/*# sourceMappingURL=index.css.map */
