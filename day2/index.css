@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+
+body {
+  line-height: 1.5;
+}
+
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+
+body {
+  overflow: hidden;
+  background: linear-gradient(450deg, #00853e, #50c878);
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-left: 70px;
+  margin-top: 150px;
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+
+.card {
+  width: 300px;
+  height: 400px;
+  background-color: #242628;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.card .card__image {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin: 30px auto 10px auto;
+  border: 4px #f2726a solid;
+  cursor: pointer;
+  transition: 0.4s;
+}
+.card .card__image:hover {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  margin: 0 auto;
+  border: none;
+}
+.card .card__name {
+  font-size: 23px;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+}
+.card .card__job {
+  color: #f2726a;
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+.card .card__contact {
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+}
+.card .card__contact .card__contact__icon {
+  font-size: 22px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card .card__contact .card__contact__icon:hover {
+  color: #f2726a;
+}
+.card .card__btn {
+  border: 1px solid #f2726a;
+  background-color: #242628;
+  border-radius: 13px;
+  font-size: 15px;
+  padding: 9px 19px;
+  color: white;
+  display: block;
+  margin: 43px auto;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.card .card__btn:hover {
+  background-color: #f2726a;
+}/*# sourceMappingURL=index.css.map */

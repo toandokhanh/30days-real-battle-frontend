@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+body{
+    overflow: hidden;
+    background: linear-gradient(450deg, #00853e, #50c878);
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-left: 70px;
+    margin-top: 150px;
+    color:#ffff;
+    font-family: 'Poppins', sans-serif;
+}
+//vali
+$color: #f2726a;
+$color-card:#242628;
+
+
+
+.card{
+    width: 300px;
+    height: 400px;
+    background-color: $color-card;
+    border-radius: 10px;
+    overflow: hidden;
+    .card__image{
+        width: 120px;
+        height: 120px;
+        border-radius: 50%;
+        margin: 30px auto 10px auto;
+        border: 4px $color solid;
+        cursor: pointer;
+        transition: .4s;
+        // transition-delay: .2s;
+
+        &:hover{
+            width: 100%;
+            height: 100%;
+            border-radius: 10px;
+            margin: 0 auto;
+            border: none;    
+       } 
+     
+    }
+    .card__name{
+        font-size: 23px;
+        font-weight: 600;
+        text-align: center;
+        cursor: pointer;
+
+    }
+    .card__job{
+        color: $color;
+        text-align: center;
+        font-size: 16px;
+        font-weight: 400;
+        cursor: pointer;
+    }
+    .card__contact{
+        display: flex;
+        justify-content: space-around;
+        margin: 20px;
+        
+        .card__contact__icon{
+            font-size: 22px;
+            cursor: pointer;
+            transition: .3s;
+            &:hover{
+                color: $color;
+            }
+        }
+    }
+    .card__btn{
+        border: 1px solid $color;
+        background-color: $color-card;
+        border-radius: 13px;
+        font-size: 15px;
+        padding: 9px 19px;
+        color: #ffff;
+        display: block;
+        margin: 43px auto;
+        cursor: pointer;
+        transition: .3s;
+
+        &:hover{
+            background-color: $color;
+            
+        }
+    }
+}
