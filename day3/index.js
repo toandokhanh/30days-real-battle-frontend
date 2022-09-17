@@ -1,8 +1,9 @@
-const btnElement = document.querySelector(".btn");
 const containerElement = document.querySelector(".container");
 const ovelayElement = document.querySelector(".ovelay");
 const iconCloseElement = document.getElementById("icon");
 const btnCloseElement = document.getElementById("btn-close");
+const btnElement = document.querySelector(".btn");
+
 
 const active = () => {
     containerElement.classList.add("active");
