@@ -9,3 +9,6 @@
 ![image](https://user-images.githubusercontent.com/98395447/190862018-1292b915-fa5b-4569-b886-a6451fb350e1.png)
 ![image](https://user-images.githubusercontent.com/98395447/190862036-9a1b428a-bcda-464c-8062-0a6808a4e3db.png)
 
+### day 4
+![image](https://user-images.githubusercontent.com/98395447/190900066-63be3671-528b-457d-91e4-d2703ea2a970.png)
+![image](https://user-images.githubusercontent.com/98395447/190900089-c4829226-790f-4251-8715-c56a0c861dc1.png)
