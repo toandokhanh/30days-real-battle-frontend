@@ -13,3 +13,9 @@
 - Live-demo: Xem demo trực tiếp
 - Github: Link source
 - Code Mẫu: Cho phép sửa và thử code online
+**Giới thiệu web icon động**
+https://lordicon.com/
+- Có nhiều icon động, mới, xịn xò 
+- hoàn toàn miễn phí
+- Được nhúng ra nhiều dang dữ liệu như HTML, GIF, LOTTIE, MORE, ...
+![image](https://user-images.githubusercontent.com/98395447/191285027-ad8ba2da-ca26-44b1-b30f-588ab5654603.png)
