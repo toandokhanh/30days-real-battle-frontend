@@ -63,7 +63,7 @@ overViewRightElement.addEventListener('click',() => {
     toTheRight();
 });
 
-// kiểm tra khi người dùng ấn nút ESC thì gọi hiddenOverView();
+// kiểm tra tương tác bàn phím của người dùng
 document.onkeydown = (e) => {
     if(e.keyCode === 37){
         // toTheLeft();

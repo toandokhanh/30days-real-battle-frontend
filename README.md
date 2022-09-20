@@ -1,5 +1,15 @@
+### 30 ngày thực chiến html css javascript
+|  #  | Project                                                                                                                | Live Demo                                                                        |
+| :-: | ---------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------- |
+| 01  | [Product Card](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day1)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day1/)               |
+| 02  | [Profile Card](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day2)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day2/)               |
+| 03  | [Create Modal](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day3)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day3/)               |
+| 04  | [Image Gallery](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day4)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day4/)               |
 
 
-### day 4
-![image](https://user-images.githubusercontent.com/98395447/190900066-63be3671-528b-457d-91e4-d2703ea2a970.png)
-![image](https://user-images.githubusercontent.com/98395447/190900089-c4829226-790f-4251-8715-c56a0c861dc1.png)
+
+**TÍNH NĂNG:**
+
+- Live-demo: Xem demo trực tiếp
+- Github: Link source
+- Code Mẫu: Cho phép sửa và thử code online
