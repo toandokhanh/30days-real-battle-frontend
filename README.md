@@ -13,7 +13,8 @@
 - Live-demo: Xem demo trực tiếp
 - Github: Link source
 - Code Mẫu: Cho phép sửa và thử code online
-**Giới thiệu web icon động**
+
+**GIỚI THIỆU ICON LORDICON**
 https://lordicon.com/
 - Có nhiều icon động, mới, xịn xò 
 - hoàn toàn miễn phí
