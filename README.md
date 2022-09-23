@@ -7,6 +7,8 @@
 | 03  | [Create Modal](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day3)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day3/)               |
 | 04  | [Image Gallery](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day4)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day4/)               |
 | 05  | [Search box](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day5)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day5/)               |
+| 06  | [Search box](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day6)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day6/)               |
+
 
 
 ### TÍNH NĂNG:
