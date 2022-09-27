@@ -39,8 +39,8 @@ https://lordicon.com/
 - ![image](https://user-images.githubusercontent.com/98395447/192559362-fe83c43c-0572-4576-9ff5-55047391f98c.png)
 - ![image](https://user-images.githubusercontent.com/98395447/192559434-ff3b057b-67af-4604-97cd-5c2e3165a86f.png)
 - ![image](https://user-images.githubusercontent.com/98395447/192559501-6a5018fa-9910-494d-992b-2ac62296b494.png)
-
-### Sữ dụng SCSS![Uploading image.png…]()
+- 
+### Sữ dụng SCSS
 # SCSS
 
 **Cool things you may not have known your stylesheets could do.**  I'd rather have kept it to a nice round number like 10, but they just kept coming.  Sorry.
