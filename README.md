@@ -7,7 +7,9 @@
 | 03  | [Create Modal](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day3)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day3/)               |
 | 04  | [Image Gallery](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day4)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day4/)               |
 | 05  | [Search box](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day5)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day5/)               |
-| 06  | [Detect Pressed Key](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day6)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day6/)               |
+| 06  | [Detect Pressed Key](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/special_day)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day6/)               |
+| 07  | [Detect Pressed Key](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/special_day)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day6/)               |
+
 
 
 
