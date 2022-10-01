@@ -34,7 +34,12 @@ https://lordicon.com/
 ![image](https://user-images.githubusercontent.com/98395447/192556243-82fad087-d0b9-4079-9d97-5e1aa4149d69.png)
 ### codingui.dev
 ![image](https://user-images.githubusercontent.com/98395447/192557137-6dcd36bb-c7c6-4b37-b056-b863ec8fc5cf.png)
-
+### DỄ DÀNG TẠO GRADIENT CHUẨN GU VỚI CÁC WEBSITE SAU :
+- ![image](https://user-images.githubusercontent.com/98395447/192559303-1db53b99-c0a8-4cca-91b7-03338bc1d3f0.png)
+- ![image](https://user-images.githubusercontent.com/98395447/192559362-fe83c43c-0572-4576-9ff5-55047391f98c.png)
+- ![image](https://user-images.githubusercontent.com/98395447/192559434-ff3b057b-67af-4604-97cd-5c2e3165a86f.png)
+- ![image](https://user-images.githubusercontent.com/98395447/192559501-6a5018fa-9910-494d-992b-2ac62296b494.png)
+- 
 ### Sữ dụng SCSS
 # SCSS
 
