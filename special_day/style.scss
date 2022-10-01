@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+$color-bg: #1c1c1e;
+%light{
+  background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+  color: $color-bg;
+  border: 1px solid #16d9e300;
+}
+%dark{
+  color:#16d9e3;
+  background-color: $color-bg;
+  border: 1px solid #16d9e3;
+}
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: $color-bg;
+  color: #ffff;
+    
+}
+button,
+input{
+    outline: none;
+    border: none;
+    background: none;
+}
+.card{
+  width: 400px;
+  height: 520px;
+  border-radius: 6px;
+  background: linear-gradient(145deg, #19191b, #1e1e20);
+  box-shadow:  13px 13px 29px #0d0d0e,
+               -13px -13px 29px #2b2b2f;
+  padding: 18px;
+  position: relative;
+  margin: 50px auto;
+  .cover_img{
+    border-top-left-radius:6px ;
+    border-top-right-radius:6px ;
+    height: 180px;
+    width: 100%;
+    object-fit: cover;
+    z-index: 10;
+  }
+  .info{
+    display: flex;
+     .avt_img{
+        width:130px ;
+        height:130px ;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-top: -50px;
+        border: 8px solid $color-bg;
+        margin-left: 20px;
+      }
+      .name{
+        font-size: 22px;
+        font-weight: 500;
+        padding: 10px 0px 10px 15px;
+      }
+  }
+  .job{
+    text-align: center;
+    font-size: 17px;
+    font-weight: 200;
+    opacity: .5;
+    padding: 2px;
+  }
+  .btn{
+    padding: 8px 24px;
+    margin: 23px;
+    font-weight: 600;
+    border-radius: 3px;
+    transition: .3s;
+    transition-delay: .2s;
+  }
+  .btn__message{
+    margin-left: 35px;
+  }
+  
+  .btn--light{
+   @extend %light;
+    &:hover{
+      @extend %dark;
+      background-image: none
+    }
+  }
+  .btn--dark{
+    @extend %dark;
+    &:hover{
+      @extend %light;
+    }
+  }
+  .contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:40px;
+    margin: 10px 0;
+    font-size: 20px;
+    opacity: .8;
+  }
+}
