@@ -9,6 +9,9 @@
 | 05  | [Search box](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day5)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day5/)               |
 | 06  | [Detect Pressed Key](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day6)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day6/)               |
 | special_day  | [Card Info](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/special_day)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/special_day/)               |
+| day7  | [null](https://github.com/toanvippro/30days-real-battle-frontend/tree/main/day7)                               | [Live Demo](https://toanvippro.github.io/30days-real-battle-frontend/day7/)               |
+
+
 
 
 
