@@ -12,20 +12,21 @@
     <div class="wrapper">
         <h1>Search Tags</h1>
         <div class="input">
-            <ul>
-                <li>1đ <span class="close"><i class="fa-solid fa-xmark"></i></span> </li>
-                <li>1đ <span class="close"><i class="fa-solid fa-xmark"></i></span> </li>
-                <li>1đ <span class="close"><i class="fa-solid fa-xmark"></i></span> </li>
-                <li>1đ <span class="close"><i class="fa-solid fa-xmark"></i></span> </li>
-                <li>1đ <span class="close"><i class="fa-solid fa-xmark"></i></span> </li>
-                <li>1đ <span class="close"><i class="fa-solid fa-xmark"></i></span> </li>
-                <li>1đ <span class="close"><i class="fa-solid fa-xmark"></i></span> </li>
-                <input style="float: right;" type="text" name="add" id="add" placeholder="Type and enter">
-            </ul>   
+            <ul class="ul">
+            </ul> 
+            <input id="input" type="text" name="add" id="add" placeholder="Type and enter">  
            
             
         </div>
-        <button>Remove All</button>
+        <div style="
+            display:flex;
+            justify-content: flex-end;
+            gap: 10px;
+        ">
+            <button  id="add">Add</button>
+            <button>Remove first child</button>
+            <button>Remove All</button>
+        </div>
     </div>
     <script src="index.js"></script>
     <script src="https://cdn.lordicon.com/pzdvqjsp.js"></script>

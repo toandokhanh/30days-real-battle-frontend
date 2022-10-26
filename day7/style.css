@@ -59,7 +59,7 @@ input {
 }
 
 .wrapper {
-  background-color: white;
+  background-color: rgb(255, 255, 255);
   height: -webkit-max-content;
   height: -moz-max-content;
   height: max-content;
@@ -70,8 +70,9 @@ input {
 }
 .wrapper h1 {
   font-size: 25px;
-  font-weight: 500;
+  font-weight: 600;
   margin-bottom: 15px;
+  color: rgb(33, 33, 33);
 }
 .wrapper .input {
   border: 1px solid black;

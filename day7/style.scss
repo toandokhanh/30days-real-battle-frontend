@@ -64,8 +64,9 @@ input{
   -20px -20px 60px #a1e657;
   h1{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 600;
     margin-bottom: 15px;
+    color: rgb(33, 33, 33);
   }
   .input{
     border: 1px solid black;
@@ -99,5 +100,6 @@ input{
     color:#fff;
     padding: 8px 15px;
     border-radius: 8px;
+
   }
 }
