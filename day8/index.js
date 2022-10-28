@@ -9,27 +9,31 @@ const validate = (inputElement, rule) => {
                     }else {
                         inputElement.parentElement.classList.remove('invalid');
                         inputElement.parentElement.classList.add('valid');
-
                     }
+                    return !errorMessage;
 }
 
 // đối tượng
 const validator = (opstion) => {
     //lấy element của form cần validate
-    const formElement = document.querySelector(opstion.form)
+    const formElement = document.querySelector(opstion.form);
+    
     if(formElement){
         opstion.rules.forEach((rule) => {
             const inputElement = formElement.querySelector(rule.selector);
+            // kiểm tra khi submit form 
+            formElement.addEventListener('submit', function(e){
+                e.preventDefault();
+                validate(inputElement, rule);
+            })
+            //kiểm tra các input cần validate
             if(inputElement){
                 inputElement.onblur = function(){
                     validate(inputElement, rule);
-                    console.log(inputElement, rule);
                 }
             }
         });
     }
-
-
 }
 
 // định nghĩa các rules
@@ -75,7 +79,7 @@ validator.isConfirmPassword = (selector, condition, message) => {
         condition:condition,
         check: (value) => {
             const password = document.querySelector(condition);
-            console.log(password.value);
+            // console.log(password.value);
             return value === password.value ? undefined : message || "Nhập sai ! Vui lòng nhập lại";
         }
     }
