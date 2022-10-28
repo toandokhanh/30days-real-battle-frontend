@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="form">
+        <form id="form-1" action="" method="POST">
+            <h1>Đăng ký</h1>
+
+            <div class="form-control ">
+                <input id="username" name="username" class="username" type="text" placeholder="Họ và Tên"> <br> 
+                <small class="form-message">!</small>
+            </div>
+
+            <div class="form-control">
+                <input id="email" name="email" class="email" type="text" placeholder="Email"> <br>
+                <span class="form-message">!</span>
+            </div>
+
+            <div class="form-control">
+                <input id="password" name="password" class="password" type="password" placeholder="Mật khẩu"> <br> 
+                <span class="form-message">!</span>
+            </div>
+
+            <div class="form-control">
+                <input id="confirm-password" name="confirm-password" class="confirm-password" type="password" placeholder="Nhập lại mật khẩu"> <br>
+                <span class="form-message">!</span>
+            </div>
+            
+
+            <div class="form-control">
+                <input id="phone" name="phone" class="phone" type="text" placeholder="Số điện thoại"> <br>
+                <span class="form-message">!</span>
+            </div>
+
+            <button type="submit">Đăng ký</button>
+            <p>Bạn đã có tài khoản? <a href="login.html">Đăng nhập</a></p>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        // Mong muốn
+        validator({
+            form: '#form-1',
+            rules: [
+                validator.isRequired('#username', 'Vui lòng nhập đầy đủ tên của bạn'),
+                validator.isEmail('#email','Trường này phải là Email'),
+                validator.isPassword('#password', 'Mật khẩu phải Lớn hơn 8 ký tự, 1 chữ thường và 1 chữ viết hoa'),
+                validator.isPhone('#phone','Vui lòng nhập đúng số điện thoại'),
+                validator.isConfirmPassword('#confirm-password', '#password', 'Mật khẩu không trùng khớp')
+            ]
+        });
+    </script>
+</body>
+</html>

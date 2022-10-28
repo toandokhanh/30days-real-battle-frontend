@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+body {
+  line-height: 1.5;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  outline: none;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+button,
+input{
+    outline: none;
+    border: none;
+    background: none;
+}
+body{
+  background: linear-gradient(120deg, #3ca7ee, #9b408f);
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+@keyframes effectChange {
+  from{
+    opacity: 0;
+    transform: translate(0, 20px);
+  }to{
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+.form{
+  width: 400px;
+  height: max-content;
+  background-color: #ffff;
+  border-radius: 8px;
+  padding: 25px 40px;
+  z-index: 10;
+  animation: effectChange 1s ease-in-out 1 forwards;
+  h1{
+    font-size: 28px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 40px;
+  }
+  
+}
+.form-control{    
+  transition: 0.5s;
+  position: relative;
+  margin-bottom: 30px;
+  input{
+    padding: 5px 0;
+    border-bottom: 2px solid #c7c7c7;
+    width: 100%;
+    transition: all 0.5s;
+    &:focus{
+      border-bottom: 2px #3ca7ee solid;
+      transition-timing-function: linear;
+      ~ .form-message{
+        font-size: 12px;
+        color: red;
+        opacity: 0;
+      }
+    }
+  }
+  .form-message{
+    font-size: 12px;
+    color: red;
+    opacity: 0;
+  }
+  
+}
+.invalid{
+  input{
+    border-bottom: 2px solid red;
+  }
+  .form-message{
+    opacity: 1;
+  }
+  
+}
+.valid{
+  input{
+    border-bottom: 2px solid #2792d9;
+  }
+}
+  button[type="submit"]{
+    background-color: #3ca7ee;
+    width: 100%;
+    padding: 11px 0px;
+    margin-top: 23px;
+    color:#fff;
+    font-weight: 800;
+    font-size: 18px;
+    border-radius: 30px;
+    &:hover{
+      background-color: #2792d9;
+    }
+  }
+  p{
+    text-align: center;
+    margin-top: 25px;
+    color:rgb(44, 44, 44);
+    a{
+      color: #3ca7ee;
+      text-decoration: none;
+    }
+  }

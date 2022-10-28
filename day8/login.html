@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Day 8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    @keyframes effectChange {
+  from{
+    opacity: 0;
+    transform: translate(20px, 0);
+  }to{
+    opacity: 1;
+    transform: translate(0, 0);
+  }
+}
+</style>
+<body>
+    <div class="form">
+        <form id="form-2" action="" method="POST">
+            <h1>Đăng Nhập</h1>
+
+            <div class="form-control">
+                <input id="email" class="email" type="text" placeholder="Email"> <br>
+                <span class="form-message">!</span>
+            </div>
+
+            <div class="form-control">
+                <input id="password" class="password" type="text" placeholder="Mật khẩu"> <br> 
+                <span class="form-message">!</span>
+            </div>
+            <button type="submit">Đăng nhập</button>
+            <p>Bạn chưa có tài khoản? <a href="index.html">Đăng ký</a></p>
+        </form>
+    </div>
+    <script src="index.js"></script>
+    <script>
+        validator({
+            form: '#form-2',
+            rules: [
+                validator.isEmail('#email', 'Trường này phải là Email'),
+                validator.isPassword('#password', 'Mật khẩu phải Lớn hơn 8 ký tự, 1 chữ thường và 1 chữ viết hoa')
+            ]
+        });
+    </script>
+</body>
+</html>
